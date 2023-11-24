@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HogwartsWiki</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,8 +48,15 @@
                 <p>Студенты могут привести с собой кошку сову или жабу. Первокурсником запрещяно брать сс собой метлу.</p>
             </article>
             <div class="hogwarts-map">
-                <img src="/images/map.png" alt="Карта Хогвартса" class="map">
-                <h4>Карта Хогвартса</h4>
+                <div class="slider">
+                    <div><img src="/images/map.png" alt="Карта Хогвартса" class="slider-images" title="Карта"></div>
+                    <div><img src="/images/castle.jpg" alt="Замок" class="slider-images" title="Замок"></div>
+                    <div><img src="/images/lac.jpg" alt="Горное озеро" class="slider-images" title="Горное озеро"></div>
+                    <div><img src="/images/forbiddenforest.png" alt="Большой лес (запретный лес)" class="slider-images" title="Большой лес (запретный лес)"></div>
+                    <div><img src="/images/greenhouses.jpg" alt="Оранжереи" class="slider-images" title="Оранжереи"></div>
+                    <div><img src="/images/hagridshut.jpg" alt="Избушка лесничего" class="slider-images" title="Избушка лесничего"></div>
+                    <div><img src="/images/quidditchfield.png" alt="Поле для игры в Квиддич" class="slider-images" title="Поле для игры в Квиддич"></div>
+                </div>                    
                 <div class="places-list">
                     <p>Хогвартс окружон горами и находиться где-то в Шотландии. Благодаря заклинаниям маглы не могут найти Хогвартс, всё что они видят это развалины и табличку «Keep out» («Опасно»). На территории школы нахонаходятся : </p>
                     <ul>
@@ -59,12 +69,15 @@
                     </ul>
                     <p>В Хогвартсе есть 142 лестнецы которые могут двигатся. Трансгрессия в Хогвартсе невозможна и электронные приборы не работают.</p>
                 </div>
-                </div>
+            </div>
         </conteiner>    
    </main>
    <footer>
 
    </footer> 
+   <script src="script.js"></script>
+</body>
+</html>
    <script src="script.js"></script>
 </body>
 </html>
