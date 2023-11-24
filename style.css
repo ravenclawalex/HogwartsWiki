@@ -86,14 +86,24 @@ ul {
     justify-content: space-between;
 }
 
-.map {
-    margin-left: 60px;
-    margin-top:30px;
-}
-
 .places-list {
     width: 1000px;
-    translate: 840px -620px;
+    translate: 820px -550px;
+}
+
+.bx-wrapper {
+    width: 695px;
+    background-color: #695749;
+    border: double #3b322b;
+    margin-left: 30px;
+    margin-top: 150px;
+    font-family: 'Neucha', cursive;
+    z-index: -1;
+}
+
+.slider-images {
+    width: 695px;
+    height: 442px;
 }
 
 @media (max-width: 1255px) {
